@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+.topic{
+    text-align: center;
+}
+.form-container{
+    width: 250px;
+    margin: auto;
+    margin-top: 150px;
+}
+.sbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.olduser{
+    text-align: center;
+    margin: 10px;
+}
+
+.msg{
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: 5px;
+        color: black;
+        font-family: sans-serif;
+        font-weight: bold;
+}
