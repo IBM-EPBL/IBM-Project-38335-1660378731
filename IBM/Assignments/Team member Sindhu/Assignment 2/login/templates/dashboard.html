@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        .response-content{
+            text-align: center;
+            margin-top: 150px;
+            font-family: sans-serif;
+        }
+        .btn{
+            background-color: red;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="response-content">
+        <h1>Welcome {{email}}</h1>
+        <h2>Let's Enjoy Your Day</h2>
+        <h3>{{msg}}</h3>
+        <a href="{{url_for('logout')}}"><button class="btn">LOGOUT</button></a>
+    </div>
+</body>
+</html>
